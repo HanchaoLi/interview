@@ -1,0 +1,27 @@
+package ch1;
+
+public class ZeroMatrix {
+	public static int[][] zero(int[][] matrix) {
+		int m = matrix.length;
+		int n = matrix[0].length;
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				
+			}
+		}
+		
+		
+		
+		return matrix;
+	}
+	public static void main(String[] args) {
+		int[][] arr = {{1,2,3}, {4,5,6}, {7,8,9}};
+		int[][] res = zero(arr);
+		for (int[] i : res) {
+			for (int j : i) {
+				System.out.println(j);
+			}
+		}
+		System.out.println();
+	}
+}
